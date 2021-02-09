@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>hnation</title>
+  <link rel="stylesheet" href="shop.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.2.0/turbolinks.js"></script>
+ </head>
+ <body id=shop>
+  <div id=shop>
+   <h1 id="header">sub clicker</h1>
+   <!--Work-->
+   <label>Your subs:</label>
+   <var id=userMoney>0</var><label> subs</label><br>
+   <label>Total production (subs/s):</label>
+   <var id=totalProduction>0</var><br>
+   <button id="work" onclick="work()">sub</button><br>
+   <button onclick="save()">save</button><br>
+   <button onclick="load()">load</button><br>
+   <button onclick="home()">back</button>
+   <!--Advertisement-->
+   <h3>Video:</h3>
+   <label>Number of videos:</label>
+   <var id=numAd>0</var><br>
+   <button id="buyAd" onclick="buyAd()">make video</button>
+   <label>Price:</label>
+   <var id=adCost>10000</var><label> subs</label><br>
+   <label>Produce (subs/s):</label>
+   <var id=adProduction>0</var><br>
+   <!--Worker-->
+   <h3>Silver Play Buttons:</h3>
+   <label>Number of Silver Play Buttons:</label>
+   <var id=numWorker>0</var><br>
+   <button id="buyWorker" onclick="buyWorker()">get silver play button</button>
+   <label>Price:</label>
+   <var id=workerCost>100000</var><label>
+    subs</label><br>
+   <label>Produce (subs/s):</label>
+   <var id=workerProduction>0</var><br>
+   <!--Machine-->
+   <h3>Gold Play Button:</h3>
+   <label>Number of Gold Play Buttons:</label>
+   <var id=numMachine>0</var><br>
+   <button id="buyMachine" onclick="buyMachine()">get gold play button</button>
+   <label>Price:</label>
+   <var id=machineCost>1000000</var><label>
+    subs</label><br>
+   <label>Produce (subs/s):</label>
+   <var id=machineProduction>0</var><br>
+   <!--Factory-->
+   <h3>Diamond Play Button:</h3>
+   <label>Number of Diamond Play Buttons:</label>
+   <var id=numFactory>0</var><br>
+   <button id="buyFactory" onclick="buyFactory()">get diamond play button</button>
+   <label>Price:</label>
+   <var id=factoryCost>10000000</var><label>
+    subs</label><br>
+   <label>Produce (subs/s):</label>
+   <var id=factoryProduction>0</var><br>
+   <!--Robofactory-->
+   <h3>Custom Creator Award:</h3>
+   <label>Number of Custom Creator Awards:</label>
+   <var id=numRobofactory>0</var><br>
+   <button id="buyRobofactory"
+    onclick="buyRobofactory()">get custom creator award</button>
+   <label>Price:</label>
+   <var id=robofactoryCost>50000000</var><label>
+    subs</label><br>
+   <label>Produce (subs/s):</label>
+   <var id=robofactoryProduction>0</var><br>
+   <!--Beltfactory-->
+   <h3>Red Diamond Creator Award:</h3>
+   <label>Number of Red Diamond Creator Awards:</label>
+   <var id=numBeltfactory>0</var><br>
+   <button id="buyBeltfactory"
+    onclick="buyBeltfactory()">get red diamond creator award</button>
+   <label>Price:</label>
+   <var id=beltfactoryCost>100000000</var><label>
+    subs</label><br>
+   <label>Produce (subs/s):</label>
+   <var id=beltfactoryProduction>0</var><br>
+   <button onclick="reset()">Reset current
+    level</button>
+   <script src="scripts/subs.js"></script>
+   <script src="scripts/script.js"></script>
+  </div>
+ </body>
+</html>
